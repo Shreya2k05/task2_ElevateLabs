@@ -1,0 +1,47 @@
+/* GLOBAL STYLES - Demonstrating cascading behavior */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Light background */
+    color: #333;               /* Dark text for readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* REUSABLE CLASS - Refactored for repetitive sections */
+.container-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;    /* Visible border to see the box */
+    padding: 20px;             /* Space inside the box */
+    margin-bottom: 20px;       /* Space between boxes */
+    border-radius: 8px;        /* Softens the corners */
+}
+
+/* TYPOGRAPHY - Improving visual hierarchy */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #3498db; /* Visual separator */
+    padding-bottom: 5px;
+    color: #3498db;
+}
+
+/* LIST STYLES */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* DEBUGGING - Use these temporary styles to visualize spacing */
+/* .debug {
+    outline: 2px dashed red;
+    background-color: rgba(255, 0, 0, 0.1);
+} 
+*/
